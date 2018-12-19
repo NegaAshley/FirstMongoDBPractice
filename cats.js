@@ -27,23 +27,23 @@ var mrPeaches = new Cat({
 
 //Save cat to DB and have callback function once that is done
 
-// meepo.save(function(err, cat){
-//     if(err){
-//         console.log("Something went wrong!");
-//     }else{
-//         console.log("We just saved a cat to the DB!");
-//         console.log(cat);
-//     }
-// });
+meepo.save(function(err, cat){
+    if(err){
+        console.log("Something went wrong!");
+    }else{
+        console.log("We just saved a cat to the DB!");
+        console.log(cat);
+    }
+});
 
-// mrPeaches.save(function(err, cat){
-//     if(err){
-//         console.log("Something went wrong!");
-//     }else{
-//         console.log("We just saved a cat to the DB!");
-//         console.log(cat);
-//     }
-// });
+mrPeaches.save(function(err, cat){
+    if(err){
+        console.log("Something went wrong!");
+    }else{
+        console.log("We just saved a cat to the DB!");
+        console.log(cat);
+    }
+});
 
 //Another way to define and create a cat
 
